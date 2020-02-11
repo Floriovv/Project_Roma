@@ -60,6 +60,20 @@ h1{
     padding: 0;
 }
 
-
-
 /* ENDE ERSTE SECTION */
+
+/* ZWEITE SECTION */
+
+.section--second{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.paragraph--secondsection{
+    display: inline-block;
+    height: 1500px;
+    width: 700px;
+    position: absolute;
+    left: 5%;
+}
