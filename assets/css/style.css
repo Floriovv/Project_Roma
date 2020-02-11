@@ -3,6 +3,21 @@ body{
     padding: 0;
 }
 
+/* HEADER */
+
+.header--paragraph{
+    position: absolute;
+    display: inline-block;
+    right: 20vh;
+    top: 0.5vh;
+    color: #fff;
+    text-decoration: underline #e7bc0e;
+}
+
+/* ENDE HEADER */
+
+/* ERSTE SECTION */
+
 .section--first{
     position: relative;
 }
@@ -23,6 +38,7 @@ h1{
     font-size: 45px;
     display: inline-block;
     position: absolute;
+    top: 20vh;
     left: 5%;
     width: 285px;
     line-height: 60px;
@@ -34,10 +50,14 @@ h1{
 .paragraph--firstsection{
     display: inline-block;
     position: absolute;
-    top: 45vh;
+    top: 57vh;
     left: 5%;
     width: 150px;
     height: 40px;
     margin: 0;
     padding: 0;
 }
+
+
+
+/* ENDE ERSTE SECTION */
