@@ -1,3 +1,23 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.section--first{
+    position: relative;
+}
+
+.fixedbackground{
+    position: fixed;
+    background-image: url(../img/cleo-topper.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    top: 0;
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 45px;
@@ -6,4 +26,18 @@ h1{
     left: 5%;
     width: 285px;
     line-height: 60px;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.paragraph--firstsection{
+    display: inline-block;
+    position: absolute;
+    top: 45vh;
+    left: 5%;
+    width: 150px;
+    height: 40px;
+    margin: 0;
+    padding: 0;
 }
