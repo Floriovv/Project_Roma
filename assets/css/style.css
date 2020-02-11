@@ -3,6 +3,11 @@ body{
     padding: 0;
 }
 
+span{
+    color: #fff;
+    background-color: #29272B;
+}
+
 /* HEADER */
 
 .header--paragraph{
@@ -71,9 +76,15 @@ h1{
 }
 
 .paragraph--secondsection{
-    display: inline-block;
-    height: 1500px;
-    width: 700px;
+    margin: 0;
+    padding: 0;
     position: absolute;
-    left: 5%;
+    display: inline-block;
+    height: 800px;
+    width: 600px;
+    left: 10%;
+    bottom: 10%;
+    color: #6bc1a3;
+    font-size: 20px;
+    line-height: 40px;
 }
