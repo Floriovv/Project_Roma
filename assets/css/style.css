@@ -19,6 +19,15 @@ span{
     text-decoration: underline #e7bc0e;
 }
 
+.header--paragraph::before{
+    background-image: url(../img/heart.svg);
+    margin-right:10px;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    content: "";
+}
+
 /* ENDE HEADER */
 
 /* ERSTE SECTION */
@@ -63,6 +72,7 @@ h1{
     height: 40px;
     margin: 0;
     padding: 0;
+    color: #e7bc0e;
 }
 
 /* ENDE ERSTE SECTION */
@@ -85,6 +95,6 @@ h1{
     left: 10%;
     bottom: 10%;
     color: #6bc1a3;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 40px;
 }
