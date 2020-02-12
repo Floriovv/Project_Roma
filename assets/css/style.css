@@ -30,13 +30,7 @@ span{
 
 /* ENDE HEADER */
 
-/* ERSTE SECTION */
-
-.section--first{
-    position: relative;
-    height: 100vh;
-    width: 100vw;
-}
+/* BACKGROUND */
 
 .fixedbackground{
     position: fixed;
@@ -49,6 +43,16 @@ span{
     margin: 0;
     padding: 0;
     top: 0;
+}
+
+/* ENDE BACKGROUND */
+
+/* ERSTE SECTION */
+
+.section--first{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
 }
 
 h1{
@@ -95,9 +99,27 @@ h1{
     display: inline-block;
     height: 800px;
     width: 630px;
-    left: 10%;
+    left: 20%;
     bottom: 10%;
     color: #6bc1a3;
     font-size: 30px;
     line-height: 40px;
 }
+
+/* ENDE DER ZWEITEN SECTION */
+
+/* DRITTE SECTION */
+
+.section--thirdsection{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.workersymbol{
+    position: absolute;
+    height: 240px;
+    width: 240px;
+}
+
+/* ENDE DER DRITTEN SECTION */
