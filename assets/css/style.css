@@ -41,6 +41,8 @@ span{
 .fixedbackground{
     position: fixed;
     background-image: url(../img/cleo-topper.jpg);
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.37);
     width: 100vw;
     height: 100vh;
     background-size: cover;
@@ -86,15 +88,16 @@ h1{
 }
 
 .paragraph--secondsection{
+    top: 200px;
     margin: 0;
     padding: 0;
     position: absolute;
     display: inline-block;
     height: 800px;
-    width: 600px;
+    width: 630px;
     left: 10%;
     bottom: 10%;
     color: #6bc1a3;
-    font-size: 25px;
+    font-size: 30px;
     line-height: 40px;
 }
