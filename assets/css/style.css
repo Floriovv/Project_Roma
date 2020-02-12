@@ -3,7 +3,7 @@ body{
     padding: 0;
 }
 
-span{
+.span--background{
     color: #fff;
     background-color: #29272B;
 }
@@ -120,6 +120,11 @@ h1{
     position: absolute;
     height: 240px;
     width: 240px;
+}
+
+#millions_span{
+    font-size: 50px;
+    color: #e7bc0e;
 }
 
 /* ENDE DER DRITTEN SECTION */
