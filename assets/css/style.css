@@ -3,6 +3,11 @@ body{
     padding: 0;
 }
 
+@font-face{
+    font-family: 'Santio Bold';
+    src: url(../fonts/Santio\ Bold.otf)
+}
+
 .span--background{
     color: #fff;
     background-color: #29272B;
@@ -48,22 +53,21 @@ body{
 /* ENDE BACKGROUND */
 
 /* ERSTE SECTION */
-
-.section--first{
-    position: relative;
+.sections{
     height: 100vh;
     width: 100vw;
+    position: relative;
 }
 
 h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     display: inline-block;
     position: absolute;
     top: 20vh;
     left: 5%;
-    width: 285px;
-    line-height: 60px;
+    width: 380px;
+    line-height: 70px;
     margin: 0;
     padding: 0;
     color: #fff;
@@ -86,13 +90,11 @@ h1{
 /* ZWEITE SECTION */
 
 .section--second{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
+    color: #6bc1a3;
 }
 
 .paragraph--secondsection{
-    top: 180px;
+    top: 100px;
     margin: 0;
     padding: 0;
     position: absolute;
@@ -101,7 +103,6 @@ h1{
     width: 630px;
     left: 20%;
     bottom: 10%;
-    color: #6bc1a3;
     font-size: 30px;
     line-height: 40px;
 }
@@ -110,21 +111,135 @@ h1{
 
 /* DRITTE SECTION */
 
-.section--thirdsection{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-}
-
-.workersymbol{
-    position: absolute;
-    height: 240px;
-    width: 240px;
-}
-
-#millions_span{
-    font-size: 50px;
+.section--third{
     color: #e7bc0e;
 }
 
+.symbols{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    left: 20%;
+    top: 10%;
+}
+
+.h2--titlehigh{
+    display: inline-block;
+    font-size: 100px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    letter-spacing: 15px;
+}
+
+.paragraph--sectionlow{
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    top: 50%;
+    left: 20%;
+}
+
 /* ENDE DER DRITTEN SECTION */
+
+/* VIERTE SECTION */
+
+.section--fouth{
+    color: #cb91b6;
+}
+
+.h2--titlelow{
+    display: inline-block;
+    font-size: 100px;
+    position: absolute;
+    top: 45%;
+    left: 20%;
+    letter-spacing: 15px;
+}
+
+.paragraph--sectionhigh{
+    position: absolute;
+    display: inline-block;
+    font-size: 50px;
+    top: 40%;
+    left: 20%;
+}
+
+/* ENDE DER VIERTEN SECTION */
+
+/* FÜNFTE SECTION */
+
+.section--fith{
+    color: #6bc1a3;
+}
+
+/* ENDE FÜNFTE SECTION */
+
+/* SECHSTE SECTION */
+
+.section--sixth{
+    color: #7eb8e1;
+}
+
+.paragraph--sixthsection{
+    top: 30%;
+    position: absolute;
+    display: inline-block;
+    height: 350px;
+    width: 700px;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    line-height: 40px;
+}
+
+/* ENDE DER SECHSTEN SECTION */
+
+/* SIEBTE SECTION */
+
+.section--seventh{
+    background-color: #efefef;
+}
+
+.kidpic{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+}
+
+.seepic{
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    z-index: 1;
+}
+
+/* ENDE DER SIEBTEN SECTION */
+
+/* ACHTE SECTION */
+
+.section--eighth{
+    background-color: black;
+}
+
+.paragraph--eigthsection{
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    font-size: 75px;
+    color: #fff;
+    margin: 0;
+    width: 600px;
+    font-family: 'Santio Bold';
+}
+
+#donatebutton{
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    border-color: #fff;
+}
