@@ -75,6 +75,7 @@ h1{
 
 .paragraph--firstsection{
     display: inline-block;
+    font-family: 'Mr Dafoe', cursive;
     position: absolute;
     top: 65vh;
     left: 5%;
