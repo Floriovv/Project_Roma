@@ -242,10 +242,23 @@ h1{
 }
 
 #donatebutton{
-    height: 50px;
-    width: 100px;
+    padding: 20px;
+    font-size: 25px;
+    height: 70px;
+    width: 150px;
     position: absolute;
     border-color: #fff;
     background-color: #000;
     color: #fff;
+    border-radius: 5px;
+    top: 65vh;
+    left: 10vw;
+}
+
+#donatebutton:active{
+    background-color: rgb(27, 26, 26);
+}
+
+#donatebutton:focus{
+    outline: none;
 }
