@@ -1,39 +1,47 @@
+/* PROJEKT ROMA style.css */
+
 @font-face{
     font-family: 'Santio Bold';
     src: url(../fonts/SantioBold.otf)
 }
 
+a{
+    color: #6bc1a3;
+    text-decoration: none;
+}
+
 body{
+    font-family: 'Santio Bold';
     margin: 0;
     padding: 0;
-    font-family: 'Santio Bold';
 }
 
 .span--background{
     color: #fff;
     background-color: #29272B;
+    padding-top: 3px;
 }
 
 /* HEADER */
 
 .header--paragraph{
+    color: #fff;
+    display: inline-block;
     font-family: 'Roboto', sans-serif;
     position: absolute;
-    display: inline-block;
     right: 20vh;
-    top: 0.5vh;
-    color: #fff;
     text-decoration: underline #e7bc0e;
+    top: 0.5vh;
 }
 
 .header--paragraph::before{
     background-image: url(../img/heart.svg);
-    margin-right:10px;
-    width: 20px;
-    height: 20px;
-    display: inline-block;
-    vertical-align: -5px;
     content: "";
+    display: inline-block;
+    height: 20px;
+    margin-right:10px;
+    vertical-align: -5px;
+    width: 20px;
 }
 
 /* ENDE HEADER */
@@ -41,16 +49,14 @@ body{
 /* BACKGROUND */
 
 .fixedbackground{
-    position: fixed;
-    background-image: url(../img/cleo-topper.jpg);
-    background-blend-mode: darken;
     background-color: rgba(0, 0, 0, 0.37);
-    width: 100vw;
-    height: 100vh;
+    background-blend-mode: darken;
+    background-image: url(../img/cleo-topper.jpg);
     background-size: cover;
-    margin: 0;
-    padding: 0;
+    height: 100vh;
+    position: fixed;
     top: 0;
+    width: 100vw;
 }
 
 /* ENDE BACKGROUND */
@@ -58,36 +64,32 @@ body{
 /* ERSTE SECTION */
 .sections{
     height: 100vh;
-    width: 100vw;
     position: relative;
+    width: 100vw;
 }
 
 h1{
+    color: #fff;
+    display: inline-block;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 60px;
-    display: inline-block;
+    left: 10%;
+    line-height: 70px;
     position: absolute;
     top: 20vh;
-    left: 10%;
     width: 380px;
-    line-height: 70px;
-    margin: 0;
-    padding: 0;
-    color: #fff;
 }
 
 .paragraph--firstsection{
+    color: #e7bc0e;
     display: inline-block;
     font-family: 'Mr Dafoe', cursive;
     font-size: 25px;
+    height: 40px;
+    left: 10%;
     position: absolute;
     top: 65vh;
-    left: 10%;
     width: 200px;
-    height: 40px;
-    margin: 0;
-    padding: 0;
-    color: #e7bc0e;
 }
 
 /* ENDE ERSTE SECTION */
@@ -95,21 +97,19 @@ h1{
 /* ZWEITE SECTION */
 
 .section--second{
-    font-size: 30px;
     color: #6bc1a3;
+    font-size: 30px;
 }
 
 .paragraph--secondsection{
-    top: 100px;
-    margin: 0;
-    padding: 0;
-    position: absolute;
+    bottom: 10%;
     display: inline-block;
     height: 800px;
-    width: 665px;
     left: 20%;
-    bottom: 10%;
     line-height: 50px;
+    position: absolute;
+    top: 100px;
+    width: 665px;
 }
 
 /* ENDE DER ZWEITEN SECTION */
@@ -121,27 +121,27 @@ h1{
 }
 
 .symbols{
-    position: absolute;
     height: 200px;
-    width: 200px;
     left: 20%;
+    position: absolute;
     top: 10%;
+    width: 200px;
 }
 
 .h2--titlehigh{
     display: inline-block;
     font-size: 100px;
+    left: 20%;
     position: absolute;
     top: 30%;
-    left: 20%;
 }
 
 .paragraph--sectionlow{
-    position: absolute;
     display: inline-block;
     font-size: 50px;
-    top: 50%;
     left: 20%;
+    position: absolute;
+    top: 50%;
 }
 
 /* ENDE DER DRITTEN SECTION */
@@ -155,18 +155,18 @@ h1{
 .h2--titlelow{
     display: inline-block;
     font-size: 100px;
-    position: absolute;
-    top: 45%;
     left: 20%;
     letter-spacing: 15px;
+    position: absolute;
+    top: 45%;
 }
 
 .paragraph--sectionhigh{
-    position: absolute;
     display: inline-block;
     font-size: 50px;
-    top: 40%;
     left: 20%;
+    position: absolute;
+    top: 40%;
 }
 
 /* ENDE DER VIERTEN SECTION */
@@ -186,16 +186,16 @@ h1{
 }
 
 .paragraph--sixthsection{
-    top: 30%;
-    position: absolute;
     display: inline-block;
-    height: 350px;
-    width: 700px;
-    left: 50%;
-    right: 50%;
-    transform: translate(-50%, -50%);
     font-size: 30px;
+    height: 350px;
+    left: 50%;
     line-height: 40px;
+    position: absolute;
+    right: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+    width: 700px;
 }
 
 /* ENDE DER SECHSTEN SECTION */
@@ -206,20 +206,19 @@ h1{
     background-color: #efefef;
 }
 
-.kidpic{
+.kidpic, .seepic{
     height: 100vh;
-    width: 100vw;
     position: absolute;
     top: 0;
-    z-index: 2;
+    width: 100vw;
 }
 
 .seepic{
-    height: 100vh;
-    width: 100vw;
-    position: absolute;
-    top: 0;
     z-index: 1;
+}
+
+.kidpic{
+    z-index: 2;
 }
 
 /* ENDE DER SIEBTEN SECTION */
@@ -227,32 +226,32 @@ h1{
 /* ACHTE SECTION */
 
 .section--eighth{
+    color: #fff;
     background-color: #000;
     font-family: 'Santio Bold';
-    color: #fff;
 }
 
 .paragraph--eigthsection{
-    top: 20%;
-    left: 10%;
-    position: absolute;
     font-size: 75px;
+    left: 10%;
     margin: 0;
+    position: absolute;
+    top: 20%;
     width: 600px;
 }
 
 #donatebutton{
-    padding: 20px;
+    background-color: #000;
+    border-color: #fff;
+    border-radius: 5px;
+    color: #fff;
     font-size: 25px;
     height: 70px;
-    width: 150px;
-    position: absolute;
-    border-color: #fff;
-    background-color: #000;
-    color: #fff;
-    border-radius: 5px;
-    top: 65vh;
     left: 10vw;
+    padding: 20px;
+    position: absolute;
+    top: 65vh;
+    width: 150px;
 }
 
 #donatebutton:active{
@@ -262,3 +261,29 @@ h1{
 #donatebutton:focus{
     outline: none;
 }
+
+/* ENDE DER ACHTEN SECTION */
+
+/* FOOTER */
+
+footer{
+    color: #fff;
+    background-color: black;
+    height: 10vh;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100vw;
+}
+
+.footer--paragraph{
+    bottom: 0.5%;
+    left: 50%;
+    margin: 0;
+    position: absolute;
+    right: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+}
+
+/* ENDE FOOTER */
